@@ -1,8 +1,17 @@
 def average_ratios(numbers):
-    total = 0
-    for i in range(len(numbers)):
-        # BUG: Crashes on zero
-        total += 100 / numbers[i] 
+    if not isinstance(numbers, list):
+        raise TypeError("numbers must be a list")
+    if len(numbers) == 0:
+        raise ValueError("numbers must not be empty")
+    if any(n == 0 for n in numbers):
+        raise ValueError("numbers must not contain zero")
+
+    total = 0.0
+    for number in numbers:
+        total += 100.0 / number
+
     return total / len(numbers)
 
-print(average_ratios([10, 5, 0]))
+
+if __name__ == "__main__":
+    print(average_ratios([10, 5, 2]))
