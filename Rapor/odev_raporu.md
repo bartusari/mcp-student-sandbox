@@ -1,6 +1,7 @@
 # CENG 302 Ödev Raporu
 
 **Ad Soyad:** Bartu Sarı
+
 **Öğrenci No:** 23253049
 
 ## 1. GitHub Repo Adresi
