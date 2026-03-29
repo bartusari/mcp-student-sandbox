@@ -1,7 +1,6 @@
 # Mystery Module
 
 [![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A lightweight Python module for solving quadratic equations using the quadratic formula. This module provides a simple function to calculate the roots of a quadratic equation of the form `ax² + bx + c = 0`.
 
